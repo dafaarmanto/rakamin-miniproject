@@ -1,4 +1,4 @@
-import { getProducts } from '../api/Request';
+import { getProducts } from '../api/request';
 import Loader from '../components/Loader';
 import ProductCard from '../components/ProductCard';
 
