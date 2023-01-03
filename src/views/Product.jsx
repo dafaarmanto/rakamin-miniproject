@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 
 import Loader from '../components/Loader';
-import { getProductDetail } from '../api/Request';
+import { getProductDetail } from '../api/request';
 
 const Product = () => {
   const { product, error, loading } = getProductDetail();
