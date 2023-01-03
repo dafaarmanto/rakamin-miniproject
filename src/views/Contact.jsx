@@ -3,11 +3,11 @@ import SocialMedia from '../components/SocialMedia';
 const Contact = () => {
   return (
     <div className="flex justify-center">
-      <div className="border p-12 w-1/2 h-[400px] flex flex-col justify-between">
+      <div className="border p-6 lg:p-12 w-1/2 h-[400px] flex flex-col justify-between">
         <p>You can contact me at</p>
         <a
           href="mailto:mrandikadafa@gmail.com"
-          className="bg-black text-white flex justify-center py-4"
+          className="bg-black text-sm lg:text-xl text-white flex justify-center py-4"
         >
           Contact Me
         </a>
